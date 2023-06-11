@@ -1,0 +1,155 @@
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.8rem;
+    background-color: #1A1A1A;
+    width: 100%;
+    border-radius: 15px;
+}
+.cards-service{
+    display: grid;
+    grid-template-columns: 29% 29% 29%;
+    grid-template-rows: 50% 50% ;
+    justify-content: space-between;
+    width: 91.1%;
+}
+.serv1{
+    grid-row: 1;
+    grid-column: 1;
+}
+.serv2{
+    grid-row: 1;
+    grid-column: 2;
+}
+.serv3{
+    grid-row: 1;
+    grid-column: 3;
+}
+.serv4{
+    grid-row: 2;
+    grid-column: 1;
+}
+.serv5{
+    grid-row: 2;
+    grid-column: 2;
+}
+.serv6{
+    grid-row: 2;
+    grid-column: 3;
+}
+.service a {
+    text-decoration: none;
+}
+.cards-service a p{
+    background-color: #131313;
+    margin: 0 auto;
+    font-family: 'ManropeSemiBold';
+    color: #ffffff;
+    font-size: 18px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.serv{
+    margin-bottom: 39px;
+}
+.button {
+    border: 0;
+    border-radius: 0;
+    background: #ccc;
+} 
+.service_button{
+    background-color: #5031a6;
+    width: 26.4%;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 39px;
+    font-size: 25px;
+    color: #f3f3f3;
+    font-family: 'ManropeMedium';
+    
+}
+.service_button:hover {
+    background-color: #5031a6;
+    box-shadow: 0 0 10px 0 #131313 inset, 0 0 10px 4px #131313;
+    cursor: pointer;
+  }
+.cards-service img{
+    width: 100%;
+    border-radius: 5px;
+}
+@media (max-width: 1100px){
+    .cards-service{
+        display: grid;
+        grid-template-columns: 47% 47%;
+        grid-template-rows: 33.33% 33.33% 33.33% ;
+        justify-content: space-between;
+        width: 91.1%;
+    }
+    .serv1{
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .serv2{
+        grid-row: 1;
+        grid-column: 2;
+    }
+    .serv3{
+        grid-row: 2;
+        grid-column: 1;
+    }
+    .serv4{
+        grid-row: 2;
+        grid-column: 2;
+    }
+    .serv5{
+        grid-row: 3;
+        grid-column: 1;
+    }
+    .serv6{
+        grid-row: 3;
+        grid-column: 2;
+    }
+}
+@media (max-width: 600px){
+    .service_button{
+        height: 65px;
+    } 
+}
+@media (max-width: 500px){
+    .cards-service{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
+        justify-content: space-between;
+        width: 85%;
+    }
+    .serv1{
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .serv2{
+        grid-row: 2;
+        grid-column: 1;
+    }
+    .serv3{
+        grid-row: 3;
+        grid-column: 1;
+    }
+    .serv4{
+        grid-row: 4;
+        grid-column: 1;
+    }
+    .serv5{
+        grid-row: 5;
+        grid-column: 1;
+    }
+    .serv6{
+        grid-row: 6;
+        grid-column: 1;
+    }
+}
+

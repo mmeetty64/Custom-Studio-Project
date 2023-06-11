@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="Style.css" rel="stylesheet" type="text/css">
+    <title>Custom Studio</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header">
+                <a href="#" class="fff"><img src="Img/Logo.svg" class="logo"></a>
+                <h1>custom studio</h1>
+                <a href="tel:+79888888888" class="ff">+7 (988) 888-88-88</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Index.html">Главная</a></li>
+                    <li><a href="Service.html">Услуги</a></li>
+                    <li><a href="About.html">Контакты</a></li>
+                </ul>
+            </nav>
+    </div>
+
+    </header>
+    <main>
+        <section class="about">
+            <h2 class="title about-title">О нас</h2>
+            <p>Обращаясь в наше тюнинг-ателье вы можете быть уверены, что в работе
+                используются современные расходные материалы наивысшего качества из доступных на рынке детейлинга и
+                автотюнинга. Партнерские соглашения с ведущими брендами позволяют предоставлять лучшие цены для наших
+                клиентов.
+            </p>
+            <p>
+                Автомобиль мечты это не миф, станьте частью нашего огромного сообщества и ваша мечта об идеальном
+                автомобиле осуществится вместе с Custom Studio.</p>
+            </p>
+        </section>
+        <section class="service">
+            <h2 class="title">Услуги</h2>
+            <div class="cards-service">
+                <a href="#" class="serv1 serv"><img src="Img/services1.jpg">
+                    <p>Мойка</p>
+                </a>
+                <a href="#" class="serv2 serv"><img src="Img/services2.jpg">
+                    <p>Окраска дисков</p>
+                </a>
+                <a href="#" class="serv3 serv"><img src="Img/services3.jpg">
+                    <p>Фотосессия</p>
+                </a>
+                <a href="#" class="serv4 serv"><img src="Img/services4.jpg">
+                    <p>Удаление вмятин</p>
+                </a>
+                <a href="#" class="serv5 serv"><img src="Img/services5.jpg">
+                    <p>Цветная пленка</p>
+                </a>
+                <a href="#" class="serv6 serv"><img src="Img/services6.jpg">
+                    <p>Пошив чехла</p>
+                </a>
+            </div>
+            <button class="button service_button" onclick="document.location='Service.html'">Все услуги</button>
+        </section>
+        <section class="slider">
+            <h2 class="title slider__title">Пример работ</h2>
+            <div class="wrapperr">
+                <div class="slider-wrapper">
+                    <div class="slide active">
+                        <img src="Img/slider1-1.png" alt="Пример 1">
+                    </div>
+                    <div class="slide">
+                        <img src="Img/slider2-1.png" alt="Пример 2">
+                    </div>
+                    <div class="slide">
+                        <img src="Img/slider3-1.png" alt="Пример 3">
+                    </div>
+                    <div id="btn-prev"></div>
+                    <div id="btn-next"></div>
+                    <p class="arrow arrow-next" id="arr-next"></p>
+                    <p class="arrow arrow-prev" id="arr-prev"></p>
+                </div>
+            </div>
+            <div class="dots-wrapper">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="Podval">
+            <div class="Adress">
+                <p>г. Санкт-Петербург, набережная реки Смоленки, 1</p>
+                <p>Время работы:
+                    Пн.-Вс.: 10:00 – 21:00
+                </p>
+            </div>
+            <div class="Contacts">
+                <p>CustomSpb@mail.com</p>
+                <p>+7 (988) 888-88-88</p>
+            </div>
+            <div class="Social__networks">
+                <svg class="Social">
+                    <use xlink:href="./sprite.svg#instagram"></use>
+                </svg>
+                <svg class="Social">
+                    <use xlink:href="./sprite.svg#vk"></use>
+                </svg>
+                <svg class="Social">
+                    <use xlink:href="./sprite.svg#telegram"></use>
+                </svg>
+                <svg class="Social">
+                    <use xlink:href="./sprite.svg#youtube"></use>
+                </svg>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="JS/slider.js"></script>
+</body>
+
+</html>

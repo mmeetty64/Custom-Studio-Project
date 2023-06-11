@@ -1,0 +1,92 @@
+.contacts-page{
+    width: 100%;
+}
+
+.purpe-fon-address{
+    background-color: #5031a6;
+    display: flex;
+    justify-content: center;
+    height: 460px;
+    align-items: center;
+    border-radius: 5px;
+}
+.address-and-perezvon{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 91.1%;
+}
+.Text-address{
+    grid-column: 1;
+}
+.Application__Registration{
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Application__Registration h3{
+    font-family: 'Manrope';
+    font-size: 25px;
+    color: #f3f3f3;
+    margin-bottom: 15px;
+}
+.Text-address p{
+    font-family: Manrope;
+    font-size: 25px;
+    color: #f3f3f3;
+}
+.Application__Registration input{
+    width: 93.25%;
+    height: 12.8%;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    border: 0;
+    padding: 0 20px;
+}
+.Application__Registration input::placeholder{
+    font-family: Manrope;
+    color: #000000;
+    font-size: 23px;
+}
+.button-send{
+    background-color: #131313;
+    border-color: #131313;
+    color: #ffffff;
+    font-family: 'Manrope';
+    font-size: 25px;
+    width: 98.5%;
+    height: 12.8%;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 0 40px 40px #131313 inset, 0 0 0 0 #131313;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+.button-send:hover {
+    background-color: #5031a6;
+    box-shadow: 0 0 10px 0 #131313 inset, 0 0 10px 4px #131313;
+    cursor: pointer;
+  }
+
+@media (max-width: 750px){
+    .address-and-perezvon {
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 100%;
+    }
+    .Text-address{
+        grid-area: 1;
+    }
+    .Application__Registration{
+        grid-column: 1;
+        grid-area: 2;
+    }
+    .purpe-fon-address{
+        height: 600px;
+    }
+    .Text-address p{
+        text-align: center;
+    }
+    .Application__Registration{
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Ungai;
+    src: url("../fonts/Ungai RUS.otf") format("opentype");
+    }
+@font-face {
+    font-family: Manrope;
+    src: url("../fonts/Manrope-Regular.ttf") format("opentype");
+    }
+@font-face {
+    font-family: ManropeBold;
+    src: url("../fonts/Manrope-Bold.ttf") format("opentype");
+    }
+@font-face {
+    font-family: ManropeSemiBold;
+    src: url("../fonts/Manrope-SemiBold.ttf") format("opentype");
+    }
+@font-face {
+    font-family: ManropeExtraBold;
+    src: url("../fonts/Manrope-ExtraBold.ttf") format("opentype");
+    }
+@font-face {
+    font-family: ManropeMedium;
+    src: url("../fonts/Manrope-Medium.ttf") format("opentype");
+    }
+@font-face {
+    font-family: ManropewLight;
+    src: url("../fonts/Manrope-Light.ttf") format("opentype");
+    }
+@font-face {
+    font-family: ManropewExtraLight;
+    src: url("../fonts/Manrope-ExtraLight.ttf") format("opentype");
+    }
+
+body{
+    margin: 0;
+    background-color: #232323;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1600px;
+}
+

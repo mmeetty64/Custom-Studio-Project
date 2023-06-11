@@ -1,0 +1,13 @@
+.page-service{
+    background-color: 0;
+}
+.page-service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 15px;
+}
+.page-service a {
+    text-decoration: none;
+}
